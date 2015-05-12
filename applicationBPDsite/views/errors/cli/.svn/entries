@@ -1,0 +1,70 @@
+10
+
+dir
+0
+https://github.com:443/BenjaminRomeo/BPD.git/applicationBPDsite/views/errors/cli
+https://github.com:443/BenjaminRomeo/BPD.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+761050a3-4efb-4815-8ee3-ce57b7db7bff
+
+error_db.php
+file
+
+
+
+add
+
+error_404.php
+file
+
+
+
+add
+
+error_php.php
+file
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+error_general.php
+file
+
+
+
+add
+
+error_exception.php
+file
+
+
+
+add
+

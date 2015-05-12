@@ -1,0 +1,119 @@
+10
+
+dir
+0
+https://github.com:443/BenjaminRomeo/BPD.git/systemBPDsite/database/drivers
+https://github.com:443/BenjaminRomeo/BPD.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+761050a3-4efb-4815-8ee3-ce57b7db7bff
+
+mssql
+dir
+
+
+
+add
+
+sqlite
+dir
+
+
+
+add
+
+oci8
+dir
+
+
+
+add
+
+pdo
+dir
+
+
+
+add
+
+ibase
+dir
+
+
+
+add
+
+postgre
+dir
+
+
+
+add
+
+sqlite3
+dir
+
+
+
+add
+
+mysql
+dir
+
+
+
+add
+
+odbc
+dir
+
+
+
+add
+
+cubrid
+dir
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+sqlsrv
+dir
+
+
+
+add
+
+mysqli
+dir
+
+
+
+add
+
