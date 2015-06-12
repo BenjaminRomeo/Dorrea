@@ -1,17 +1,19 @@
-K 25
-svn:wc:ra_dav:version-url
-V 39
-/BenjaminRomeo/BPD.git/!svn/ver/1/trunk
 END
-LICENSE
+.gitignore
 K 25
 svn:wc:ra_dav:version-url
-V 47
-/BenjaminRomeo/BPD.git/!svn/ver/1/trunk/LICENSE
+V 53
+/BenjaminRomeo/Dorrea.git/!svn/ver/1/trunk/.gitignore
 END
-README.md
+.gitattributes
 K 25
 svn:wc:ra_dav:version-url
-V 49
-/BenjaminRomeo/BPD.git/!svn/ver/1/trunk/README.md
+V 57
+/BenjaminRomeo/Dorrea.git/!svn/ver/1/trunk/.gitattributes
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/BenjaminRomeo/Dorrea.git/!svn/ver/2/trunk/.htaccess
 END

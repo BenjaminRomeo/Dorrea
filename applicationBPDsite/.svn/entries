@@ -2,8 +2,8 @@
 
 dir
 0
-https://github.com:443/BenjaminRomeo/BPD.git/applicationBPDsite
-https://github.com:443/BenjaminRomeo/BPD.git
+https://github.com:443/BenjaminRomeo/Dorrea.git/applicationBPDsite
+https://github.com:443/BenjaminRomeo/Dorrea.git
 add
 
 
@@ -23,17 +23,10 @@ has-prop-mods
 
 
 
-
-761050a3-4efb-4815-8ee3-ce57b7db7bff
+incomplete
+49032b9f-dead-66e5-e22c-ce57b7db7bff
 
 helpers
-dir
-
-
-
-add
-
-cache
 dir
 
 
@@ -97,13 +90,6 @@ dir
 add
 
 index.html
-file
-
-
-
-add
-
-.htaccess
 file
 
 

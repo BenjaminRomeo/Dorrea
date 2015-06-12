@@ -1,0 +1,270 @@
+/* CSS Document */
+#mainContainer
+{
+	width:100%;	
+	height:100%;
+	padding-top:82px;
+	text-align:center;
+	background-color:#030406;
+}
+
+#back
+{
+	background: #030406 url(../../images/system/bUser.png) no-repeat center;
+	background-size:contain;
+	height:100%;
+	width:100%;
+	display:none;
+	z-index:500;
+	position:relative;
+}
+
+#areaCenter
+{
+  position: absolute;
+  z-index: 600;
+  width: 100%;
+}
+
+#coArea
+{
+  margin: 0 auto;
+  display: table;
+  width: 630px;
+  height: 100%;
+}
+
+.registerForm
+{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center;
+}
+
+.buttonValid
+{
+	width:299px;
+	height:50px;	
+	background-color:rgba(205,0,0,1);
+	display:inline-block;
+	border:#cd0000 solid;
+	border-width:1px 1px 1px 1px;
+	-webkit-transition: background 0.7s; 
+    transition: background 0.7s;
+	line-height:50px;
+	color:#ffffff;
+	margin:0 auto;
+	margin-top: 15px;
+}
+
+h1
+{
+	font-weight:normal;	
+	color:#cd0000;
+	border: #cd0000 dashed;
+	border-width:0px 0px 1px 0px;
+	text-align:left;
+	height: 45px;
+}
+
+.buttonValid:hover > p
+{
+	cursor:pointer;
+	color:#cd0000;
+}
+
+.buttonValid:hover
+{
+	background-color:rgba(205,0,0,0);
+	-webkit-transition: background 0.7s; 
+    transition: background 0.7s;	
+}
+
+.buttonValid > p
+{
+	text-align:center;
+	vertical-align:middle;
+}
+
+input[type=checkbox]
+{
+	width: auto;	
+	height:auto;
+}
+
+input
+{
+	width:100%;	
+	padding-left: 5px;
+	height:22px;
+	font-size:14px;
+}
+
+input[name=pseudo], select
+{
+	width:300px;	
+}
+
+#forgot
+{
+	float:right;	
+}
+
+.note
+{
+	color:#929292;
+	font-size:12px;	
+	text-align:justify;
+}
+
+.rememberCB
+{
+	margin: 10px 0px 5px 0px;	
+}
+
+.errorInput
+{
+	background-color:rgba(205,0,0,0.25);
+	border: 1px #cd0000 solid;
+}
+
+.true
+{
+	border: 1px #ffffff solid;	
+	background-color:rgba(255,255,255,0.45);
+}
+
+.left
+{
+	float:left;	
+}
+
+.right
+{
+	float:right;
+}
+
+.blocRegister
+{
+	width:300px;	
+	text-align:left;
+	height:55px;
+}
+
+.blocRegisterLarge
+{
+	width:100%;
+	text-align:left;
+	height:55px;
+}
+
+.blocRegisterNote
+{
+	width:100%;
+	text-align:justify;
+}
+
+#leg
+{
+	float:left;
+	width: 100%;
+}
+
+.g-recaptcha
+{
+	padding-top:50px;	
+}
+
+.tracker
+{
+	margin: 15px 0px 15px 0px;
+	height:30px;
+}
+
+.run
+{
+
+	height:100%;	
+	width:210px;
+	background:url(../../images/system/navi.png) repeat-x;
+	background-position:0px 0px;
+	float:left;	
+	z-index:300;
+	text-align:center;
+}
+
+.step
+{
+	background:url(../../images/system/navi.png) no-repeat;
+	background-position:center -30px;
+	width:100%;;
+	height:100%;
+	z-index:400;
+}
+
+.done > .step
+{
+	background-position:center -60px;	
+	cursor:pointer;
+}
+
+.done:hover
+{
+	background-position:0px -90px;	
+}
+
+.run p
+{
+	position:relative;
+	bottom:10px;
+	color: #929292	
+}
+
+.done p
+{
+	color: #ffffff;	
+}
+
+.current p
+{
+	color: #cd0000;	
+}
+
+.error, .warning
+{
+	font-size:12px;	
+	color:#cd0000;
+}
+
+.p1
+{
+	padding-top:50px;	
+}
+
+.p1, .p2, .p3
+{
+	height: 170px;
+	width: 630px;
+	position:absolute;
+}
+
+.p2, .p3
+{
+	display:none;
+	opacity:0;
+}
+
+#placeHolder
+{
+	height: 280px;	
+	float:left;
+	width:100%;
+}
+
+.g-recaptcha div div
+{
+	margin: 0 auto;
+	width:300px;
+}

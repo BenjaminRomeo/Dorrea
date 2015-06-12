@@ -1,0 +1,479 @@
+/* CSS Document */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+	min-width: 800px;	
+}
+
+@font-face {
+    font-family: 'Californian';
+    src: url('polices/CalifornianFB.eot') format('eot'),
+         url('polices/CalifornianFB.woff') format('woff'),
+         url('polices/CalifornianFB.ttf') format('truetype');
+}
+
+a
+{
+	text-decoration: none;
+	font-family: 'Californian',serif;
+}
+
+#imgMenu
+{
+	height: 60%;
+	background: url(../images/banner/backMain.jpg) no-repeat 0% 35%;
+	background-size: cover; 	
+}
+
+#accessMenu
+{
+	text-align: left;
+	padding-left: 8px;
+	line-height:50px;
+	vertical-align:middle;
+	font-size: 15px;
+	font-family: 'Californian', serif;
+	height:51px;
+	display:inline-block;
+	float:left;
+}
+
+#accessMenu > img
+{
+	height:50px;
+	float:left;
+	margin-right:20px;
+}
+
+#accessMenu > img:hover
+{
+	cursor:pointer;
+}
+
+.elemMenu
+{
+	color: black;
+}
+
+.elemMenu:hover
+{
+	color: #929292;
+	cursor: pointer;
+}
+
+.elemMenu.pos
+{
+	color: #cd0000;
+	cursor:default;
+}
+
+.mainMenu
+{
+	height:50px;
+	width:100%;
+	border-style: solid;
+	border-color: #929292;
+    border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	background-color: white;
+	font-weight:bold;
+	position:fixed;
+	top:30px;
+	z-index: 1000000;
+}
+
+#rightMenu
+{
+	display:inline-block;
+	position:absolute;
+	right:0px;	
+	width:150px;
+	height:52px;
+}
+
+#auxiliarMenu
+{
+	position: fixed;
+	height:30px;
+	top:0px;
+	width:100%;
+	background-color: white;
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: #929292;
+	z-index: 1000001;
+}
+
+#accessMenuAux
+{
+	text-align: right;
+	font-size: 15px;
+	font-family: 'Californian', serif;
+	height:30px;
+}
+
+.listeLangue
+{
+	width:482px;
+	height:120px;
+}
+
+.listeAide
+{
+	width:365px;
+	height:95px;
+}
+
+.listeConnexion
+{
+	width:312px;
+	height:95px;
+}
+
+.liste
+{
+	position: absolute;
+	text-align: left;
+	right:0px;
+	background-color: white;
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-color: #929292;
+}
+
+.subMenuAux
+{
+	position:relative;
+	top:5px;
+	left:20px;
+}
+
+.lg
+{
+	height:26px;
+	line-height:26px;	
+}
+
+.lgB
+{
+	height:26px;
+	line-height:26px;	
+	position: relative;
+	left:-5px;
+}
+
+.lg > a, .lgB > a
+{
+	text-decoration: none;
+	color:#929292;
+	display:inline-block;
+	vertical-align:middle;
+	float:left;
+}
+
+.lg:hover > a, .lg:hover, .lgB:hover > a, .lgB:hover
+{
+	color:#000000;
+	cursor:pointer;
+}
+
+.elemMenuAux
+{
+	display:inline-block;
+	line-height: 29px;
+	vertical-align: middle;
+  	color: #929292;
+	float:right;
+}
+
+.subElem
+{
+	display:inline-block;
+	padding:0px 10px 0px 10px;
+}
+
+.blockNumber
+{
+	display:inline-block;
+	background-color:rgba(146,146,146,0.5);
+	color:#ffffff;
+	width: 25px;
+	height:31px;
+	text-align: center;
+}
+
+.black, .elemMenuAux:hover
+{
+	color: black;
+}
+
+.subMenu
+{
+	position: relative;
+	width:100%;
+	height:150px;	
+	background-color: white;
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: #929292;
+	top:0px;
+	display:none;
+}
+
+.subElem
+{
+	height:32px;
+}
+
+
+.langue > .subElem
+{
+	float:left;	
+}
+
+#acceeOut
+{
+	text-align:right;
+	position:absolute;
+	right:105px;
+	top:12px;
+	width:150px;
+}
+
+.instagram, .twiter, .facebook, .loupe, .close
+{
+	background-image: url(../images/system/miniLogo.png);
+	height:26px;
+	width:26px;
+	z-index:1000002;
+	display: inline-block;
+}
+
+.twiter
+{
+	background-position: -78px -0px;
+}
+
+.twiter:hover
+{
+	cursor: pointer;
+	background-position: -78px -26px;
+}
+
+.facebook
+{
+	background-position: -52px 0px;
+}
+
+.facebook:hover
+{
+	cursor: pointer;
+	background-position: -52px -26px;
+}
+
+
+.instagram:hover
+{
+	cursor: pointer;
+	background-position: 0px -26px;;	
+}
+
+.search
+{
+	display:inline-block;
+	position:absolute;
+	right:0px;
+	height:26px;
+	width:102px;
+	top:12px;
+	z-index:10000;
+}
+
+.closeSearch:hover > .entrySearch, .closeSearch:hover >.loupe, .closeSearch:hover
+{
+	color:#929292;
+	cursor: pointer;
+	background-position: -104px -26px;
+}
+
+.loupe
+{
+	position: absolute;
+	right: 76px;
+	background-position: -104px 0px;
+	height: 26px;
+	border: 0 none;
+}
+
+.loupe:hover
+{
+	cursor: pointer;
+	background-position: -104px -26px;
+}
+
+.close
+{
+	position: absolute;
+	right: 0px;
+	background-position: -130px 0px;
+	height: 26px;
+	border: 0 none;
+}
+
+.close:hover
+{
+	background-position: -130px -26px;
+	cursor:pointer;
+}
+
+.hideClose
+{
+	display:none;
+}
+
+.entrySearch
+{
+	position:absolute;
+	right:0px;
+	height: 27px;
+	width:74px;
+	border: 0 none;
+	padding-left:4px; 
+}
+
+.showBorderSearch
+{
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-color: #929292;
+	cursor: text;	
+	right: 26px;
+}
+
+.showBorderSearch:hover
+{
+	color:black;
+}
+
+.naviGauche, .naviDroite
+{
+	background-image: url(../images/system/navigateurMenu.png);
+	height:150px;
+	width:46px;
+	z-index:1000003;
+	display: inline-block;
+}
+
+.naviDroite
+{
+	background-position: -46px 0px;
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+
+.hide
+{
+	display:none;
+}
+
+.scrollMenu
+{
+	position:fixed;
+	top:30px;
+}
+
+.flag
+{
+	background-image: url(../images/system/miniLogo.png);
+	height:26px;
+	width:26px;
+	display:inline-block;
+	float:left;
+	margin-right: 10px;
+}
+
+.flagOver
+{
+	background-image: url(../images/system/miniLogo.png);
+	height:26px;
+	width:26px;
+	display:inline-block;
+	margin-top:2px;
+	position:relative;
+	right:4px;
+}
+
+.elemMenu
+{
+	padding:0px 6px 0px 6px;	
+}
+
+.flagFR
+{
+	background-position: -182px -0px;
+}
+
+.flagEN
+{
+	background-position: -156px -26px;
+}
+
+.flagES
+{
+	background-position: -156px -0px;
+}
+
+.flagEUS
+{
+	background-position: -182px -26px;
+}
+
+.flagPAY
+{
+	background-position: -260px -0px;
+}
+
+.flagPROT
+{
+	background-position: -208px -0px;
+}
+
+.flagINFO
+{
+	background-position: -234px -0px;
+}
+
+.flagLOG
+{
+	background-position: -286px -0px;
+}
+
+.flagREGI
+{
+	background-position: -336px -0px;
+}
+
+.flagNEWSL
+{
+	background-position: -312px -0px;
+}

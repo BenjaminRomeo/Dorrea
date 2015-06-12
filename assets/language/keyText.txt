@@ -1,0 +1,87 @@
+event_menu;Evenement;Event;Evento;Gertaera
+magasin_menu;Magasin;Shop;Tiendas;Denta
+accueil_menu;Accueil;Home;Bienvenida;Ongi
+spe_menu;SpÉcialitÉs;Specialties;Especialidades;Berezitasunak
+produits_menu;Produits;Products;Productos;Produktuak
+contact_menu;Contact;Contact;Contacto;Harremanetarako
+recherche_menu;Recherche;Search;Búsqueda;Search
+langue_menu;Langue;Language;Idioma;Hizkuntza
+aide_menu;Aide;Help;Ayuda;Laguntza
+connexion_menu;Connexion;Login;Registrarse;Login
+preference_menu;PrÉfÉrence;Whish;Favoritos;Preference
+panier_menu;Panier;Cart;Cesta;Basket
+lang_spec;Fr;En;Es;Eus
+error404;Erreur 404, Page non trouvée;Error 404, Page not found;Error 404 Página no encontrada;Ez Error 404 Page topatu
+security_menu;Sécurité de paiement;Payment Security;Seguridad de los pagos;Ordainketa Segurantza
+protectData_menu;Protection des données;Data protection;Protección de Datos;Datuen babesa
+info_menu;Informations légales;Legal Information;Información Legal;Legezko Informazioa
+connect_menu;Connectez-vous;Login;Iniciar Sesión;Login
+register_menu;Inscription au site;Register;Registro del sitio;Gunearen erregistroa
+newsLetter_menu;Inscription à la Newsletter;Sign-Up Newsletter ;Inscríbase al Boletín;Newsletter -Up
+your_id;E-mail;E-mail;E-mail;E-mail
+your_pw;Mot de Passe;Password;Contraseña;Pasahitza
+loggin_mess;Déjà inscrit? Connectez-vous au plus vite pour profiter de tous vos avantages clients !;Already registered? Login faster to enjoy all benefits your customers !;¿Ya registrado? Acceda a más rápido para disfrutar de todos los beneficios de los clientes !;Dagoeneko erregistratuta? Azkarrago sartu Saioa guztia onuragarria da zure bezeroei gozatzeko!
+loggin_errorForm;Veuillez saisir une adresse e-mail correcte.;Please enter a valid email address.;Por favor, introduce una dirección de correo electrónico válida.;Sartu baliozko helbide elektronikoa.
+loggin_remember;Se souvenir de moi;Remember me;Recuérdame;Gogora nazazu
+forgot_pw;Mot de passe oublié ?;Forgotten password?;¿Contraseña olvidada?;Ahaztu egin al zaizu?
+force_area;*Champs obligatoire;*Required;*Requerido;*Beharrezko
+connexion_button;Connexion;Login;Iniciar Sesión;Login
+space_login;Espace Connexion;Login Area;Area Iniciar Sesión;Area Login
+space_register;Espace Inscription;Register  you;Usted Regístrese;You izena
+adv1_register;Cadeaux /Jeux promotionels;Gifts / Promotional games;Regalos / Juegos promocionales;Opariak / Sustapenerako games
+adv2_register;Panier de commande;Basket;Cesta;Basket
+adv3_register;Gestion des préférences;Managing preferences;Gestión de los preferencias;Preferences kudeatzea
+adv4_register;Gestions de commentaires ,...;Comments managements ...;Gerencias comentarios ...;Zuzendaritzek iruzkinak ...
+register_button;CrÉer un compte;Create account;Crear una cuenta;Sortu orain kontu bat
+register_mess;Pas encore inscrit? C'est l'endoit pour vous enregistrer facilement sur le site afin de profiter de tous les aventages clients gratuitement :;;;
+Connexion;Connexion;#EN_CONNEXION_#;#ES_CONNEXION_#;#EUS_CONNEXION_#
+alert_jsDisable;/!\JAVASCRIPT N'EST PAS ACTIVÉ/!\<br/>Veuillez l'activer dans la configuration de votre navigateur afin de profiter de tout le contenu du site.;#EN_ALERT_JSDISABLE_#;#ES_ALERT_JSDISABLE_#;#EUS_ALERT_JSDISABLE_#
+userRegister;;#EN_USERREGISTER_#;#ES_USERREGISTER_#;#EUS_USERREGISTER_#
+accounInfo;Information de compte;#EN_ACCOUNINFO_#;#ES_ACCOUNINFO_#;#EUS_ACCOUNINFO_#
+step1;Etape 1;#EN_STEP1_#;#ES_STEP1_#;#EUS_STEP1_#
+step2;Etape 2;#EN_STEP2_#;#ES_STEP2_#;#EUS_STEP2_#
+step3;Etape 3;#EN_STEP3_#;#ES_STEP3_#;#EUS_STEP3_#
+pseudo;Pseudonyme;#EN_PSEUDO_#;#ES_PSEUDO_#;#EUS_PSEUDO_#
+voidPseudo;Veuillez saisir un pseudonyme sans caractères spéciaux.;#EN_VOIDPSEUDO_#;#ES_VOIDPSEUDO_#;#EUS_VOIDPSEUDO_#
+void_your_id;Veuillez saisir votre adresse email.;#EN_VOID_YOUR_ID_#;#ES_VOID_YOUR_ID_#;#EUS_VOID_YOUR_ID_#
+confirm_your_id;Confirmer l'email;#EN_CONFIRM_YOUR_ID_#;#ES_CONFIRM_YOUR_ID_#;#EUS_CONFIRM_YOUR_ID_#
+diff_confirm_your_id;L'email saisie est différent.;#EN_DIFF_CONFIRM_YOUR_ID_#;#ES_DIFF_CONFIRM_YOUR_ID_#;#EUS_DIFF_CONFIRM_YOUR_ID_#
+void_confirm_your_id;Veuillez confirmer votre adresse email.;#EN_VOID_CONFIRM_YOUR_ID_#;#ES_VOID_CONFIRM_YOUR_ID_#;#EUS_VOID_CONFIRM_YOUR_ID_#
+void_your_pw;Veuillez saisir votre mot de passe.;#EN_VOID_YOUR_PW_#;#ES_VOID_YOUR_PW_#;#EUS_VOID_YOUR_PW_#
+confirm_your_pw;Confirmer le mot de passe;#EN_CONFIRM_YOUR_PW_#;#ES_CONFIRM_YOUR_PW_#;#EUS_CONFIRM_YOUR_PW_#
+diff_confirm_your_pw;Le mot de passe saisie est différent.;#EN_DIFF_CONFIRM_YOUR_PW_#;#ES_DIFF_CONFIRM_YOUR_PW_#;#EUS_DIFF_CONFIRM_YOUR_PW_#
+void_confirm_your_pw;Veuillez confirmer votre mot de passe.;#EN_VOID_CONFIRM_YOUR_PW_#;#ES_VOID_CONFIRM_YOUR_PW_#;#EUS_VOID_CONFIRM_YOUR_PW_#
+civility;Civilité;#EN_CIVILITY_#;#ES_CIVILITY_#;#EUS_CIVILITY_#
+default;Défaut;#EN_DEFAULT_#;#ES_DEFAULT_#;#EUS_DEFAULT_#
+civ_mrs;Madame;#EN_CIV_MRS_#;#ES_CIV_MRS_#;#EUS_CIV_MRS_#
+civ_mss;Mademoiselle;#EN_CIV_MSS_#;#ES_CIV_MSS_#;#EUS_CIV_MSS_#
+civ_mr;Monsieur;#EN_CIV_MR_#;#ES_CIV_MR_#;#EUS_CIV_MR_#
+void_civ;Veuillez saisir une civilité.;#EN_VOID_CIV_#;#ES_VOID_CIV_#;#EUS_VOID_CIV_#
+name;Nom;#EN_NAME_#;#ES_NAME_#;#EUS_NAME_#
+void_name;Veuillez saisir votre nom sans caractères spéciaux.;#EN_VOID_NAME_#;#ES_VOID_NAME_#;#EUS_VOID_NAME_#
+surname;Prenom;#EN_SURNAME_#;#ES_SURNAME_#;#EUS_SURNAME_#
+void_surname;Veuillez saisir votre prenom sans caractères spéciaux.;#EN_VOID_SURNAME_#;#ES_VOID_SURNAME_#;#EUS_VOID_SURNAME_#
+birthdate;Date de naissance** (format jj/mm/aaaa);#EN_BIRTHDATE_#;#ES_BIRTHDATE_#;#EUS_BIRTHDATE_#
+void_birthdate;Veuillez saisir votre nom sans caractères spéciaux.;#EN_VOID_BIRTHDATE_#;#ES_VOID_BIRTHDATE_#;#EUS_VOID_BIRTHDATE_#
+phone;Téléphone;#EN_PHONE_#;#ES_PHONE_#;#EUS_PHONE_#
+void_phone;Veuillez saisir votre prenom sans caractères spéciaux.;#EN_VOID_PHONE_#;#ES_VOID_PHONE_#;#EUS_VOID_PHONE_#
+adress;Adresse;#EN_ADRESS_#;#ES_ADRESS_#;#EUS_ADRESS_#
+void_adress;Veuillez saisir votre nom sans caractères spéciaux.;#EN_VOID_ADRESS_#;#ES_VOID_ADRESS_#;#EUS_VOID_ADRESS_#
+postal;Code Postal;#EN_POSTAL_#;#ES_POSTAL_#;#EUS_POSTAL_#
+void_postal;#FR_Veuillez saisir votre prenom sans caractères spéciaux.;#EN_VOID_POSTAL_#;#ES_VOID_POSTAL_#;#EUS_VOID_POSTAL_#
+city;Ville;#EN_CITY_#;#ES_CITY_#;#EUS_CITY_#
+void_city;Veuillez saisir votre nom sans caractères spéciaux.;#EN_VOID_CITY_#;#ES_VOID_CITY_#;#EUS_VOID_CITY_#
+country;Pays;#EN_COUNTRY_#;#ES_COUNTRY_#;#EUS_COUNTRY_#
+void_country;Veuillez saisir votre prenom sans caractères spéciaux.;#EN_VOID_COUNTRY_#;#ES_VOID_COUNTRY_#;#EUS_VOID_COUNTRY_#
+languagePref;Langue du site préférentielle;#EN_LANGUAGEPREF_#;#ES_LANGUAGEPREF_#;#EUS_LANGUAGEPREF_#
+languagePrefDetails;(en selectionnant une langue, vous serrez redirigé automatiquement sur la langue selectionné à chaque connexion, par défaut la langue sera choisie en fonction de votre zone géographique);#EN_LANGUAGEPREFDETAILS_#;#ES_LANGUAGEPREFDETAILS_#;#EUS_LANGUAGEPREFDETAILS_#
+frenchFullName;Français;#EN_FRENCHFULLNAME_#;#ES_FRENCHFULLNAME_#;#EUS_FRENCHFULLNAME_#
+englishFullName;Anglais;#EN_ENGLISHFULLNAME_#;#ES_ENGLISHFULLNAME_#;#EUS_ENGLISHFULLNAME_#
+runingTraduction;(Traduction en cours);#EN_RUNINGTRADUCTION_#;#ES_RUNINGTRADUCTION_#;#EUS_RUNINGTRADUCTION_#
+spanishFullName;Espangol;#EN_SPANISHFULLNAME_#;#ES_SPANISHFULLNAME_#;#EUS_SPANISHFULLNAME_#
+basqueFullName;Basque;#EN_BASQUEFULLNAME_#;#ES_BASQUEFULLNAME_#;#EUS_BASQUEFULLNAME_#
+wantRegisterNewsLetter;Je m'inscrits à la newsletter.;#EN_WANTREGISTERNEWSLETTER_#;#ES_WANTREGISTERNEWSLETTER_#;#EUS_WANTREGISTERNEWSLETTER_#
+wantRegisterNewsLetterDetails;Vous recevrez des messages sur les nouveaux produits, les événements ainsi que les offres spéciales. ;;#ES_WANTREGISTERNEWSLETTERDETAILS_#;#EUS_WANTREGISTERNEWSLETTERDETAILS_#
+acceptCondition;J'ai lu et approuvé les conditions d'utilisation du site.;#EN_ACCEPTCONDITION_#;#ES_ACCEPTCONDITION_#;#EUS_ACCEPTCONDITION_#
+ops_area;Champs facultatif mais obligatoire pour participer aux jeux promotionels;#EN_OPS_AREA_#;#ES_OPS_AREA_#;#EUS_OPS_AREA_#
+nextStep;Etape suivante;#EN_NEXTSTEP_#;#ES_NEXTSTEP_#;#EUS_NEXTSTEP_#

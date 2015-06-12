@@ -1,0 +1,115 @@
+/* CSS Document */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+table
+{
+	position: absolute;
+	height : 150px ;
+	overflow: scroll;
+	z-index:500;
+	width:100%;	
+	border:none;
+	margin:0; 
+	padding:0; 
+	border-collapse:collapse;
+	top:50px;
+}
+
+td
+{
+	width:15%;	
+	text-align:center;
+}
+
+input
+{
+	width:90%;	
+	height:80%;
+	border:solid 1px;
+}
+
+textarea{resize:vertical;}
+
+button
+{
+	width:100%;	
+}
+
+button:hover
+{
+	cursor:pointer;
+}
+
+#header
+{
+	position:fixed;
+	background-color:#CCC;
+	z-index:1000;
+	width:100%;
+	height:50px;
+	top:0px;
+	text-align:center;
+}
+
+#title > button
+{
+	position:fixed;
+	top:0px;
+	width:8.3%;
+}
+
+.validButton
+{
+	right:0px;
+}
+
+.addButton
+{
+	right:8.3%;
+}
+
+#subMenu
+{
+	display:table;
+	width:100%;
+	position:relative;
+	top:10px;
+}
+
+#subMenu > span
+{
+	position:relative;
+	display:table-cell;
+	width:16.6%;
+	text-align:center;
+	border:solid;
+	border-top-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-right-width: 1px;	
+	border-style: solid;
+	border-color: #929292;
+}
+.lign:hover
+{
+	background-color:#0F0;	
+}
+
+.altered.lign:hover, .altered
+{
+	background-color:#F60;
+}
+
+.delete.lign:hover, .delete
+{
+	background-color:#F00;
+}
+
+#space
+{
+	height:200px;
+}

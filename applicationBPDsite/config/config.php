@@ -17,7 +17,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://www.boulangerie-patisserie-dorrea.fr/';
+$config['base_url'] = '';
+$config['base_url_absolute']	= "http://boulangerie-patisserie-dorrea.fr/";  // used only to redirect to HTTP
+$config['base_url_absolute_ssl']	= "https://www.user.boulangerie-patisserie-dorrea.fr/";  // used only to redirect to HTTPS
 
 /*
 |--------------------------------------------------------------------------
@@ -95,7 +97,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -305,7 +307,7 @@ $config['cache_query_string'] = FALSE;
 | http://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = hex2bin('6f573a6245a2cf1d90b2c85b6d2b225e');
 
 /*
 |--------------------------------------------------------------------------
@@ -355,7 +357,7 @@ $config['encryption_key'] = '';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver'] = 'files';
+$config['sess_driver'] = 'database';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = NULL;
@@ -414,7 +416,7 @@ $config['standardize_newlines'] = FALSE;
 |          for backwards compatibility purposes!
 |
 */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------

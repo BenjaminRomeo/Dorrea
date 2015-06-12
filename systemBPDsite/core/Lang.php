@@ -196,6 +196,17 @@ class CI_Lang {
 		{
 			log_message('error', 'Could not find the language line "'.$line.'"');
 		}
+		if ($value === FALSE)
+		{
+			if (!$file = fopen('assets/language/keyText.txt',"a")) {
+				exit;
+			}
+			else 
+			{
+				fprintf($file, $line.";#FR_".strtoupper($line)."_#;#EN_".strtoupper($line)."_#;#ES_".strtoupper($line)."_#;#EUS_".strtoupper($line)."_#\n");
+				fclose($file); 
+			}
+		}	
 
 		return $value;
 	}
