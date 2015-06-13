@@ -97,34 +97,35 @@ if ( ! function_exists('URLPrefix'))
 		return $prefix.$lprefix.$part1.$part2.'boulangerie-patisserie-dorrea.fr'.$lsuffix.$urlLG;
 	}
 }
-/*
+
 function anti_injection( $user, $pass ) {
     $banlist = array (
         "insert", "select", "update", "delete", "distinct", "having", "truncate",
-        "replace", "handler", "like", "procedure", "limit", "order by", "group by" 
+        "replace", "handler", "like", "procedure", "limit", "order by", "group by" ,"or" , "and", "where", "drop", "table", "from"
         );
-    if ( eregi ( "[a-zA-Z0-9]+", $user ) ) {
-        $user = trim ( str_replace ( $banlist, '', strtolower ( $user ) ) );
-    } else {
-        $user = NULL;
-    }
 
-    if ( eregi ( "[a-zA-Z0-9]+", $pass ) ) {
-        $pass = trim ( str_replace ( $banlist, '', strtolower ( $pass ) ) );
-    } else {
-        $pass = NULL;
-    }
+	foreach($banlist as $value)
+	{
+		if (in_array($value ,explode(" ",strtolower($user))) && preg_match("/[a-zA-Z0-9@.-_]+/i", $user )) {
+			$user = NULL;
+		}
+	}
 
-    $array = array ( 'user' => $user, 'pass' => $pass );
-    if ( in_array ( NULL, $array ) ) {
-        die ( 'ERREUR : Injection SQL détectée' );
-    } else {
+	foreach($banlist as $value)
+	{
+		if (in_array($value ,explode(" ",strtolower($pass))) && preg_match("/[a-zA-Z0-9@.-_]+/i", $user )) {
+			$pass = NULL;
+		}
+	}
+
+    $array = array ( 'user' => $user, 'pass' => $pass);
+    if ( in_array ( NULL, $array ) ) 
+	{
+        return false;
+    } 
+	else 
+	{
         return $array;
     }
 } 
-*/
-//$login = anti_injection ($_POST['pseudo'],$_POST['pass']); // on lance la fonction anti injection
-//$password = $login['pass']; // on recupère le pass
-//$password=md5($password); // on met le pass en md5
-//$pseudo = $login['user']; // on recupère le pseudo
 ?> 

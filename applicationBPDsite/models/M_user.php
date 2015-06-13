@@ -3,7 +3,8 @@ class M_user extends CI_Model
 {
 	function login($mail, $password)
 	{
-		$query = $this->db->query('SELECT user_pw, user_mail, user_pseudo, user_id FROM user WHERE user_mail="'.$mail.'"');
+		$sql = 'SELECT user_pw, user_mail, user_pseudo, user_id FROM user WHERE user_mail= ? ';
+		$query = $this->db->query($sql, array($mail));
 		if ($query->num_rows() > 0)
 		{
 			$row = $query->row_array(1);

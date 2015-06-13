@@ -9,12 +9,13 @@ class User extends CI_Controller  {
 		$this->load->model('M_user','',TRUE);
 		$this->load->library('form_validation');
 		$this->load->library('encryption');
+		$this->config->set_item('language',langPrefix());
     }
  
  	public function index()
 	{
-		$this->form_validation->set_rules('email', 'Email', 'trim|valid_email|callback_check_database_login|required');
-		$this->form_validation->set_rules('password', 'Password', 'trim|callback_check_database_password|required');
+		$this->form_validation->set_rules('email', strtolower($this->lang->line('your_id')), 'trim|valid_email|callback_check_database_login|required');
+		$this->form_validation->set_rules('password', strtolower($this->lang->line('your_pw')), 'trim|callback_check_database_password|required');
 		if($this->form_validation->run() == FALSE && !$this->session->has_userdata('logged_in'))
 		{
 			//dynamic data
@@ -112,16 +113,25 @@ class User extends CI_Controller  {
 	function check_database($password, $email)
 	{
 		//query the database
-		$result = $this->M_user->login($email, $password);
-		if($result)
+		
+		$login = anti_injection ($email,$password); 
+		if($login != false)
 		{
-			$sess_array = array(
-				'id' => $result['user_id'],
-				'pseudo' => $result['user_pseudo'],
-				'email' => $result['user_mail'],
-				'logged' => TRUE
-			);
-			return $sess_array;
+			$result = $this->M_user->login($login['user'], $login['pass']);
+			if($result)
+			{
+				$sess_array = array(
+					'id' => $result['user_id'],
+					'pseudo' => $result['user_pseudo'],
+					'email' => $result['user_mail'],
+					'logged' => TRUE
+				);
+				return $sess_array;
+			}
+			else
+			{
+				return false;
+			}
 		}
 		else
 		{
