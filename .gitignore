@@ -3,7 +3,7 @@ Thumbs.db
 ehthumbs.db
 
 #fileConfig
-/applicationBPDsite/config/config.php
+config.php
 
 # Folder config file
 Desktop.ini
